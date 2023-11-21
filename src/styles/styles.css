@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%;
+}
+
+main{
+  height: 100vh;
+  width: 100%;
+  background: lightyellow;
+}
+
+.header{
+  height: 80px;
+  width: 100%;
+  background: lightslategray;
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo{
+  font-size: 2.15rem;
+  font-family: sans-serif;
+  font-weight:bold ;
+  color: #fff;
+}
+
+.quote--container{
+  height: 550px;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: lightblue;
+  row-gap: 55px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.quote--title{
+  font-size: 2rem;
+}
+
+.quote--author{
+  font-size: 1.2rem;
+  color: dimgrey;
+  font-weight: bold;
+}
+
+.get--quote{
+  font-size: 1.3rem;
+  padding: 20px 35px;
+  border: none;
+  border-radius: 5px;
+  background: #111;
+  color: #fff;
+  cursor: pointer;
+}
